@@ -38,7 +38,7 @@ $(document).ready(function(){
        var display_name=data1.streams[i].channel.display_name;
        var game_name=data1.streams[i].channel.game;
        var stream_type=data1.streams[i].stream_type;
-       var channelLink=data1.streams[i].channel._links.self;
+       var channelLink=data1.streams[i].channel.url;
 
        $('#user').append("<hr>"+display_name);
        $('#status').append("<hr><a href="+channelLink+" target='_blank'>"+stream_type+"</a>");
