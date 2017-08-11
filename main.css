@@ -8,7 +8,7 @@ body{
   /*color: white;*/
 }
 #foot{
-  margin-top: 550px;
+  margin-top: 75px;
   width: 40%;
   margin-left: 30%;
   font-size: 1.5em;
@@ -32,4 +32,15 @@ body{
   background-color: black;
   color: white;
   margin-top: 20px;
+}
+.row{
+  margin-top: 20px;
+}
+#user,#status,#info{
+  margin-top: 20px;
+  font-size: 1.35em;
+  opacity: 0.55;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
 }
