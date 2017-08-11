@@ -11,7 +11,7 @@ $(document).ready(function(){
   //  },
    success:function(data){
      if(data.stream===null){
-       $('#fccStatus').text("FreeCodeCamp is Offline...").addClass("btn btn-default");
+       $('#fccStatus').text("FreeCodeCamp is Offline right now...").addClass("btn btn-default");
        console.log("in if");
      }
      else{
