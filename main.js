@@ -6,9 +6,9 @@ $(document).ready(function(){
     headers:{
       'Client-ID':'cadz3awg3v7fa26rhtq95x61bjt4up'
     },
-    xhrFields:{
-      withCredentials: true
-   },
+  //   xhrFields:{
+  //     withCredentials: true
+  //  },
    success:function(data){
      if(data.stream===null){
        $('#fccStatus').text("FreeCodeCamp is Offline...").addClass("btn btn-default");
@@ -29,9 +29,9 @@ $(document).ready(function(){
     headers:{
       'Client-ID':'cadz3awg3v7fa26rhtq95x61bjt4up'
     },
-    xhrFields:{
-      withCredentials: true
-   },
+  //   xhrFields:{
+  //     withCredentials: true
+  //  },
    success:function(data1){
      for (var i = 0; i < lim; i++) {
 
