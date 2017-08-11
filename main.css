@@ -1,0 +1,35 @@
+body{
+  background: url("Twitch_logo.png") no-repeat center center fixed;
+  font-family: Pacifico;
+  background-size: cover;
+  /*height: 700px;*/
+  overflow-x: hidden;
+  position: relative;
+  /*color: white;*/
+}
+#foot{
+  margin-top: 550px;
+  width: 40%;
+  margin-left: 30%;
+  font-size: 1.5em;
+  opacity: 0.75;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+#fccStatus{
+  font-size: 1.8em;
+  opacity: 0.6;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+#title{
+  font-size: 2.25em;
+  opacity: 0.6;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
