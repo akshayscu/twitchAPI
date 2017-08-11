@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var api="https://api.twitch.tv/kraken/streams/dota2ti?client_id=cadz3awg3v7fa26rhtq95x61bjt4up";
+  var api="https://api.twitch.tv/kraken/streams/freecodecamp?client_id=cadz3awg3v7fa26rhtq95x61bjt4up";
   console.log(api);
   $.getJSON(api,function(data){
     if(data.stream===null){
