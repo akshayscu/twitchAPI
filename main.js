@@ -7,7 +7,7 @@ $(document).ready(function(){
       console.log("in if");
     }
     else{
-      $('#fccStatus').append('<a href="https://www.twitch.tv/freecodecamp target="_blank">FreeCodeCamp is Online...</a>').addClass("btn btn-default");
+      $('#fccStatus').append('<a href="https://www.twitch.tv/freecodecamp" target="_blank">FreeCodeCamp is Online...</a>').addClass("btn btn-default");
       console.log("in else");
     }
   });
